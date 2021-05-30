@@ -163,6 +163,7 @@ records when the parent record is deleted.
 ## Resources
 
 - [Active Record Associations Basics](https://guides.rubyonrails.org/association_basics.html)
+- [`dependent: :destroy`][dependent destroy]
 
 [has_many options]: https://guides.rubyonrails.org/association_basics.html#options-for-has-many
 [dependent destroy]: https://guides.rubyonrails.org/association_basics.html#dependent
