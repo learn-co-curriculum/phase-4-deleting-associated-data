@@ -47,7 +47,7 @@ The issue is that this dog house has reviews associated with it:
 
 ```rb
 DogHouse.first.reviews
-# => #<ActiveRecord::Associations::CollectionProxy [#<Review id: 1, ...
+# => #ActiveRecord::Associations::CollectionProxy [#Review id: 1, ...
 ```
 
 Those reviews must have a valid `dog_house_id` for their foreign key because of
