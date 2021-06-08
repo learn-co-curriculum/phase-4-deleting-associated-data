@@ -9,7 +9,7 @@
 
 In this lesson, we'll be adding delete functionality to our API so that users
 can remove a dog house from the database. We'll keep using the same starter code
-from the previous less. You can set up the models with:
+from the previous lesson. You can set up the models with:
 
 ```sh
 bundle install
@@ -31,7 +31,7 @@ to the row in the `dog_houses` table:
 
 Imagine we're creating a feature to give users the ability to delete a dog house
 from the site. When that dog house is deleted, what should happen to the
-reviews? Both from our users perspective and from the database's perspective, it
+reviews? Both from our users' perspective and from the database's perspective, it
 doesn't make much sense to keep a review around if there's no dog house for it
 to be associated with.
 
@@ -128,7 +128,8 @@ end
 ```
 
 So as soon as we call `.destroy` on an instance of a `DogHouse`, all the reviews
-associated with that instance will be destroyed! Try it out in the Rails console:
+associated with that instance will be destroyed! Restart the Rails console and
+try it out:
 
 ```rb
 DogHouse.second.destroy
