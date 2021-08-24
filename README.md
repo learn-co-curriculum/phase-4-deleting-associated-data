@@ -11,9 +11,9 @@ In this lesson, we'll be adding delete functionality to our API so that users
 can remove a dog house from the database. We'll keep using the same starter code
 from the previous lesson. You can set up the models with:
 
-```sh
-bundle install
-rails db:migrate db:seed
+```console
+$ bundle install
+$ rails db:migrate db:seed
 ```
 
 ## Deleting Associations
