@@ -161,6 +161,12 @@ necessary association when their parent record is deleted. With Active Record,
 we can use the `dependent: :destroy` option to automatically remove associated
 records when the parent record is deleted.
 
+## Check For Understanding
+
+Before you move on, make sure you can answer the following question:
+
+1. In what situations would you need to use the `dependent: :destroy` option?
+
 ## Resources
 
 - [Active Record Associations Basics](https://guides.rubyonrails.org/association_basics.html)
