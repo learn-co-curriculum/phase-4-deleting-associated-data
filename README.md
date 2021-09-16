@@ -165,7 +165,7 @@ records when the parent record is deleted.
 
 Before you move on, make sure you can answer the following question:
 
-1. What is the process for setting up the `dependent: :destroy` option?
+1. In what situations would you need to use the `dependent: :destroy` option?
 
 ## Resources
 
